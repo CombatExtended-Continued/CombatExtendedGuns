@@ -10,4 +10,11 @@
     </value>
   </Operation>
 
+  <Operation Class="PatchOperationReplace">
+    <xpath>/Defs/ThingDef[defName="CE_DisposableRocketLauncher"]/label</xpath>
+    <value>
+      <label>M72 LAW</label>
+    </value>
+  </Operation>
+
 </Patch>

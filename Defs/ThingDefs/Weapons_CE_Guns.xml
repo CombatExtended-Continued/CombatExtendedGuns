@@ -1562,6 +1562,7 @@
     </modExtensions>
   </ThingDef>
 
+<<<<<<< Updated upstream
   <!-- ==================== M72 LAW ==================== -->
 
   <ThingDef ParentName="BaseGun_CE">
@@ -1694,6 +1695,8 @@
     <researchPrerequisite>CE_Launchers</researchPrerequisite>
   </RecipeDef>
 
+=======
+>>>>>>> Stashed changes
   <!-- ==================== Milkor MGL ==================== -->
 
   <ThingDef ParentName="BaseMakeableGun">
