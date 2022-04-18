@@ -986,14 +986,14 @@
     </modExtensions>
   </ThingDef>
 
-  <!-- ==================== Tac-50 ==================== -->
+  <!-- ==================== Hecate II ==================== -->
 
   <ThingDef ParentName="BaseHumanMakeableGun_CE">
-    <defName>CE_Gun_TacFifty</defName>
-    <label>Tac-50</label>
+    <defName>CE_Gun_HecateTwo</defName>
+    <label>Hecate II</label>
     <description>Ancient bolt-action anti-materiel rifle. Combines a large caliber cartridge with a high-magnification scope for sniping at extreme range.</description>
     <graphicData>
-      <texPath>Things/Weapons/Tac50</texPath>
+      <texPath>Things/Weapons/Hecate2</texPath>
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
     <soundInteract>Interact_Rifle</soundInteract>
@@ -1001,9 +1001,9 @@
       <WorkToMake>44500</WorkToMake>
       <SightsEfficiency>3.5</SightsEfficiency>
       <ShotSpread>0.02</ShotSpread>
-      <SwayFactor>1.92</SwayFactor>
-      <Bulk>15.48</Bulk>
-      <Mass>11.80</Mass>
+      <SwayFactor>1.90</SwayFactor>
+      <Bulk>14.60</Bulk>
+      <Mass>13.80</Mass>
       <RangedWeapon_Cooldown>1.38</RangedWeapon_Cooldown>
     </statBases>
     <costList>
@@ -1025,7 +1025,7 @@
     </verbs>
     <comps>
       <li Class="CombatExtended.CompProperties_AmmoUser">
-        <magazineSize>5</magazineSize>
+        <magazineSize>7</magazineSize>
         <reloadTime>4</reloadTime>
         <ammoSet>AmmoSet_50BMG</ammoSet>
       </li>
