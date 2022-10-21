@@ -5,7 +5,7 @@ This mod adds several new firearms designed to take advantage of new CE mechanic
 
 ## Currently included:
 ### Pistols
-- S&W Governor
+- Taurus Judge
 - P-3 charge pistol
 ### SMG's
 - AKS-74U
