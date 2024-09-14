@@ -828,7 +828,7 @@
 		<soundInteract>Interact_Rifle</soundInteract>
 		<statBases>
 			<WorkToMake>30500</WorkToMake>
-			<Mass>3.3</Mass>
+			<Mass>2.8</Mass>
 			<Bulk>5.0</Bulk>
 			<ShotSpread>0.14</ShotSpread>
 			<SwayFactor>1.08</SwayFactor>
@@ -836,20 +836,20 @@
 			<RangedWeapon_Cooldown>0.37</RangedWeapon_Cooldown>
 		</statBases>
 		<costList>
-			<Steel>40</Steel>
-			<Chemfuel>5</Chemfuel>
+			<Steel>35</Steel>
+			<WoodLog>5</WoodLog>
 			<ComponentIndustrial>5</ComponentIndustrial>
 		</costList>
 		<verbs>
 			<li Class="CombatExtended.VerbPropertiesCE">
-				<recoilAmount>1.87</recoilAmount>
+				<recoilAmount>2.03</recoilAmount>
 				<verbClass>CombatExtended.Verb_ShootCE</verbClass>
 				<hasStandardCommand>true</hasStandardCommand>
 				<defaultProjectile>Bullet_762x39mmSoviet_FMJ_SB</defaultProjectile>
 				<burstShotCount>6</burstShotCount>
-				<ticksBetweenBurstShots>6</ticksBetweenBurstShots>
+				<ticksBetweenBurstShots>5</ticksBetweenBurstShots>
 				<warmupTime>0.9</warmupTime>
-				<range>48</range>
+				<range>38</range>
 				<soundCast>Shot_CE_AssaultRifleSlow</soundCast>
 				<soundCastTail>GunTail_Medium</soundCastTail>
 				<muzzleFlashScale>9</muzzleFlashScale>
