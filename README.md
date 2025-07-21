@@ -24,7 +24,6 @@ This mod adds several new firearms designed to take advantage of new CE mechanic
 - SVD
 - Hécate II
 - PTRS
-- R-8 charge sniper rifle
 - A-12 charge anti-materiel rifle
 ### Machine guns
 - M249
