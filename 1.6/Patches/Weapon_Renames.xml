@@ -1,0 +1,304 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Patch>
+
+  <!-- ==================== S&W Governor ==================== -->
+
+  <Operation Class="CombatExtended.PatchOperationSettingsConditional">
+		<settingName>realWeaponNames</settingName>
+		<nomatch Class="PatchOperationReplace">
+			<xpath>/Defs/ThingDef[defName="CE_Gun_SWGovernor"]/label</xpath>
+			<value>
+				<label>combo revolver</label>
+			</value>
+		</nomatch>
+	</Operation>
+
+  <!-- ==================== Winchester Model 1894 ==================== -->
+
+  <Operation Class="CombatExtended.PatchOperationSettingsConditional">
+		<settingName>realWeaponNames</settingName>
+		<nomatch Class="PatchOperationReplace">
+			<xpath>/Defs/ThingDef[defName="CE_Gun_WinchesterNintyFour"]/label</xpath>
+			<value>
+				<label>lever-action rifle</label>
+			</value>
+		</nomatch>
+	</Operation>
+
+  <!-- ==================== USAS-12 ==================== -->
+
+  <Operation Class="CombatExtended.PatchOperationSettingsConditional">
+		<settingName>realWeaponNames</settingName>
+		<nomatch Class="PatchOperationReplace">
+			<xpath>/Defs/ThingDef[defName="CE_Gun_USASTwelve"]/label</xpath>
+			<value>
+				<label>automatic shotgun</label>
+			</value>
+		</nomatch>
+	</Operation>
+
+  <!-- ==================== SIG MCX ==================== -->
+
+  <Operation Class="CombatExtended.PatchOperationSettingsConditional">
+		<settingName>realWeaponNames</settingName>
+		<nomatch Class="PatchOperationReplace">
+			<xpath>/Defs/ThingDef[defName="CE_Gun_SigMCX"]/label</xpath>
+			<value>
+				<label>carbine</label>
+			</value>
+		</nomatch>
+	</Operation>
+
+  <!-- ==================== AKMS-U ==================== -->
+
+  <Operation Class="CombatExtended.PatchOperationSettingsConditional">
+		<settingName>realWeaponNames</settingName>
+		<nomatch Class="PatchOperationReplace">
+			<xpath>/Defs/ThingDef[defName="CE_Gun_AKMSU"]/label</xpath>
+			<value>
+				<label>heavy carbine</label>
+			</value>
+		</nomatch>
+	</Operation>
+
+  <!-- ==================== FN FAL ==================== -->
+
+  <Operation Class="CombatExtended.PatchOperationSettingsConditional">
+		<settingName>realWeaponNames</settingName>
+		<nomatch Class="PatchOperationReplace">
+			<xpath>/Defs/ThingDef[defName="CE_Gun_FNFAL"]/label</xpath>
+			<value>
+				<label>battle rifle</label>
+			</value>
+		</nomatch>
+	</Operation>
+
+  <!-- ==================== Ruger Mini-14 ==================== -->
+
+  <Operation Class="CombatExtended.PatchOperationSettingsConditional">
+		<settingName>realWeaponNames</settingName>
+		<nomatch Class="PatchOperationReplace">
+			<xpath>/Defs/ThingDef[defName="CE_Gun_MiniFourteen"]/label</xpath>
+			<value>
+				<label>rancher rifle</label>
+			</value>
+		</nomatch>
+	</Operation>
+
+  <!-- ==================== SKS ==================== -->
+
+  <Operation Class="CombatExtended.PatchOperationSettingsConditional">
+		<settingName>realWeaponNames</settingName>
+		<nomatch Class="PatchOperationReplace">
+			<xpath>/Defs/ThingDef[defName="CE_Gun_SKS"]/label</xpath>
+			<value>
+				<label>semi-auto rifle</label>
+			</value>
+		</nomatch>
+	</Operation>
+
+  <!-- ==================== AKM ==================== -->
+
+  <Operation Class="CombatExtended.PatchOperationSettingsConditional">
+		<settingName>realWeaponNames</settingName>
+		<nomatch Class="PatchOperationReplace">
+			<xpath>/Defs/ThingDef[defName="CE_Gun_AKM"]/label</xpath>
+			<value>
+				<label>rugged assault rifle</label> <!-- I gave up -->
+			</value>
+		</nomatch>
+	</Operation>
+
+  <!-- ==================== SVD ==================== -->
+
+  <Operation Class="CombatExtended.PatchOperationSettingsConditional">
+		<settingName>realWeaponNames</settingName>
+		<nomatch Class="PatchOperationReplace">
+			<xpath>/Defs/ThingDef[defName="CE_Gun_SVD"]/label</xpath>
+			<value>
+				<label>designated marksman rifle</label>
+			</value>
+		</nomatch>
+	</Operation>
+
+  <!-- ==================== Hécate II ==================== -->
+
+  <Operation Class="CombatExtended.PatchOperationSettingsConditional">
+		<settingName>realWeaponNames</settingName>
+		<nomatch Class="PatchOperationReplace">
+			<xpath>/Defs/ThingDef[defName="CE_Gun_HecateTwo"]/label</xpath>
+			<value>
+				<label>anti-materiel rifle</label>
+			</value>
+		</nomatch>
+	</Operation>
+
+  <!-- ==================== PTRS ==================== -->
+
+  <Operation Class="CombatExtended.PatchOperationSettingsConditional">
+		<settingName>realWeaponNames</settingName>
+		<nomatch Class="PatchOperationReplace">
+			<xpath>/Defs/ThingDef[defName="CE_Gun_PTRS"]/label</xpath>
+			<value>
+				<label>anti-tank rifle</label>
+			</value>
+		</nomatch>
+	</Operation>
+
+  <!-- ==================== M249 ==================== -->
+
+  <Operation Class="CombatExtended.PatchOperationSettingsConditional">
+		<settingName>realWeaponNames</settingName>
+		<nomatch Class="PatchOperationReplace">
+			<xpath>/Defs/ThingDef[defName="CE_Gun_MTwoFourNine"]/label</xpath>
+			<value>
+				<label>squad automatic weapon</label>
+			</value>
+		</nomatch>
+	</Operation>
+
+  <!-- ==================== M60E6 ==================== -->
+
+  <Operation Class="CombatExtended.PatchOperationSettingsConditional">
+		<settingName>realWeaponNames</settingName>
+		<nomatch Class="PatchOperationReplace">
+			<xpath>/Defs/ThingDef[defName="CE_Gun_MSixty"]/label</xpath>
+			<value>
+				<label>medium machine gun</label>
+			</value>
+		</nomatch>
+	</Operation>
+
+  <!-- ==================== RPD ==================== -->
+
+  <Operation Class="CombatExtended.PatchOperationSettingsConditional">
+		<settingName>realWeaponNames</settingName>
+		<nomatch Class="PatchOperationReplace">
+			<xpath>/Defs/ThingDef[defName="CE_Gun_RPD"]/label</xpath>
+			<value>
+				<label>light automatic rifle</label>
+			</value>
+		</nomatch>
+	</Operation>
+
+  <!-- ==================== PKM ==================== -->
+
+  <Operation Class="CombatExtended.PatchOperationSettingsConditional">
+		<settingName>realWeaponNames</settingName>
+		<nomatch Class="PatchOperationReplace">
+			<xpath>/Defs/ThingDef[defName="CE_Gun_PKM"]/label</xpath>
+			<value>
+				<label>general-purpose machine gun</label>
+			</value>
+		</nomatch>
+	</Operation>
+
+  <!-- ==================== RPG-7 ==================== -->
+
+  <Operation Class="CombatExtended.PatchOperationSettingsConditional">
+		<settingName>realWeaponNames</settingName>
+		<nomatch Class="PatchOperationReplace">
+			<xpath>/Defs/ThingDef[defName="CE_Gun_RPGSeven"]/label</xpath>
+			<value>
+				<label>rocket launcher</label>
+			</value>
+		</nomatch>
+	</Operation>
+
+  <!-- ==================== Milkor MGL ==================== -->
+
+  <Operation Class="CombatExtended.PatchOperationSettingsConditional">
+		<settingName>realWeaponNames</settingName>
+		<nomatch Class="PatchOperationReplace">
+			<xpath>/Defs/ThingDef[defName="CE_Gun_MilkorMGL"]/label</xpath>
+			<value>
+				<label>rotary grenade launcher</label>
+			</value>
+		</nomatch>
+	</Operation>
+
+  <!-- ==================== Charge Pistol ==================== -->
+
+  <Operation Class="CombatExtended.PatchOperationSettingsConditional">
+		<settingName>realWeaponNames</settingName>
+		<nomatch Class="PatchOperationReplace">
+			<xpath>/Defs/ThingDef[defName="CE_Gun_ChargePistol"]/label</xpath>
+			<value>
+				<label>charge pistol</label>
+			</value>
+		</nomatch>
+	</Operation>
+
+  <!-- ==================== Charge Shotgun ==================== -->
+
+  <Operation Class="CombatExtended.PatchOperationSettingsConditional">
+		<settingName>realWeaponNames</settingName>
+		<nomatch Class="PatchOperationReplace">
+			<xpath>Defs/ThingDef[defName="CE_Gun_ChargeShotgun"]/label</xpath>
+			<value>
+				<label>charge shotgun</label>
+			</value>
+		</nomatch>
+	</Operation>
+
+  <!-- ==================== Charge SMG ==================== -->
+
+  <Operation Class="CombatExtended.PatchOperationSettingsConditional">
+		<settingName>realWeaponNames</settingName>
+		<nomatch Class="PatchOperationReplace">
+			<xpath>Defs/ThingDef[defName="CE_Gun_ChargeSMG"]/label</xpath>
+			<value>
+				<label>charge SMG</label>
+			</value>
+		</nomatch>
+	</Operation>
+
+  <!-- ==================== Charge Sniper ==================== -->
+
+  <Operation Class="CombatExtended.PatchOperationSettingsConditional">
+		<settingName>realWeaponNames</settingName>
+		<nomatch Class="PatchOperationReplace">
+			<xpath>Defs/ThingDef[defName="CE_Gun_ChargeSniperRifle"]/label</xpath>
+			<value>
+				<label>charge sniper rifle</label>
+			</value>
+		</nomatch>
+	</Operation>
+
+  <!-- ==================== Charge LMG ==================== -->
+
+  <Operation Class="CombatExtended.PatchOperationSettingsConditional">
+		<settingName>realWeaponNames</settingName>
+		<nomatch Class="PatchOperationReplace">
+			<xpath>Defs/ThingDef[defName="CE_Gun_ChargeLMG"]/label</xpath>
+			<value>
+				<label>charge LMG</label>
+			</value>
+		</nomatch>
+	</Operation>
+
+  <!-- ==================== Charge AMR ==================== -->
+
+  <Operation Class="CombatExtended.PatchOperationSettingsConditional">
+		<settingName>realWeaponNames</settingName>
+		<nomatch Class="PatchOperationReplace">
+			<xpath>Defs/ThingDef[defName="CE_Gun_ChargeAMR"]/label</xpath>
+			<value>
+				<label>charge AMR</label>
+			</value>
+		</nomatch>
+	</Operation>
+
+  <!-- ==================== Flamethrower ==================== -->
+
+  <Operation Class="CombatExtended.PatchOperationSettingsConditional">
+		<settingName>realWeaponNames</settingName>
+		<nomatch Class="PatchOperationReplace">
+			<xpath>Defs/ThingDef[defName="CE_Gun_Flamethrower"]/label</xpath>
+			<value>
+				<label>flamethrower</label>
+			</value>
+		</nomatch>
+	</Operation>
+
+</Patch>
