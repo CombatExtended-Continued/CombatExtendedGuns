@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+
+	<!-- 105mm howitzer emplacement -->
+	<CE_Artillery_Howitzer.label>105mm 榴弹炮</CE_Artillery_Howitzer.label>
+	<CE_Artillery_Howitzer.description>一种大口径、结构相对紧凑的野战火炮，可在远距离实施间接射击。</CE_Artillery_Howitzer.description>
+
+	<!-- 105mm howitzer gun -->
+	<CE_Gun_Howitzer.label>105mm 榴弹炮</CE_Gun_Howitzer.label>
+	<CE_Gun_Howitzer.description>一门 105mm 榴弹炮。</CE_Gun_Howitzer.description>
+
+</LanguageData>
