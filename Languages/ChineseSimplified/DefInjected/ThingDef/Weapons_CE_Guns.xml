@@ -1,61 +1,198 @@
 <?xml version="1.0" encoding="UTF-8"?>
-
 <LanguageData>
 
+	<!-- Crossbow -->
+	<CE_Gun_Crossbow.label>弩</CE_Gun_Crossbow.label>
+	<CE_Gun_Crossbow.description>一种中世纪弓弩，以较高速度发射弩矢而非箭矢。与弓相比，它更易操作、精度更高，但射速较慢。</CE_Gun_Crossbow.description>
+
+	<!-- Flintlock pistol -->
+	<CE_Gun_FlintlockPistol.label>燧发手枪</CE_Gun_FlintlockPistol.label>
+	<CE_Gun_FlintlockPistol.description>一种古老的燧发手枪，采用滑膛枪管，配有末端呈球头状的细长木制握把。顾名思义，它以燧发机构点火射击。</CE_Gun_FlintlockPistol.description>
+	<CE_Gun_FlintlockPistol.tools.grip.label>握把</CE_Gun_FlintlockPistol.tools.grip.label>
+	<CE_Gun_FlintlockPistol.tools.muzzle.label>枪口</CE_Gun_FlintlockPistol.tools.muzzle.label>
+
+	<!-- Flintlock blunderbuss -->
+	<CE_Gun_FlintlockBlunderbuss.label>燧发喇叭枪</CE_Gun_FlintlockBlunderbuss.label>
+	<CE_Gun_FlintlockBlunderbuss.description>一种古老的前装火器，枪管粗短、口径较大，枪口乃至整个膛道通常呈喇叭状扩张，可装填霰弹或尺寸适宜的其他投射物。喇叭枪通常被视为现代霰弹枪的早期前身，军用与防卫用途也颇为相似。</CE_Gun_FlintlockBlunderbuss.description>
+	<CE_Gun_FlintlockBlunderbuss.tools.stock.label>枪托</CE_Gun_FlintlockBlunderbuss.tools.stock.label>
+	<CE_Gun_FlintlockBlunderbuss.tools.barrel.label>枪管</CE_Gun_FlintlockBlunderbuss.tools.barrel.label>
+	<CE_Gun_FlintlockBlunderbuss.tools.muzzle.label>枪口</CE_Gun_FlintlockBlunderbuss.tools.muzzle.label>
+
+	<!-- Flintlock musket -->
+	<CE_Gun_FlintlockMusket.label>燧发滑膛枪</CE_Gun_FlintlockMusket.label>
+	<CE_Gun_FlintlockMusket.description>一种古老制式的燧发滑膛枪。作为最早期的同类武器之一，它射程较短，射速也很低。</CE_Gun_FlintlockMusket.description>
+	<CE_Gun_FlintlockMusket.tools.stock.label>枪托</CE_Gun_FlintlockMusket.tools.stock.label>
+	<CE_Gun_FlintlockMusket.tools.barrel.label>枪管</CE_Gun_FlintlockMusket.tools.barrel.label>
+	<CE_Gun_FlintlockMusket.tools.bayonet.label>刺刀</CE_Gun_FlintlockMusket.tools.bayonet.label>
+
+	<!-- S&W Governor -->
+	<CE_Gun_SWGovernor.label>S&amp;W Governor转轮手枪</CE_Gun_SWGovernor.label>
+	<CE_Gun_SWGovernor.description>一种为自卫设计的古老转轮手枪，既可发射威力强劲的手枪弹，也可使用小口径霰弹。</CE_Gun_SWGovernor.description>
+	<CE_Gun_SWGovernor.tools.grip.label>握把</CE_Gun_SWGovernor.tools.grip.label>
+	<CE_Gun_SWGovernor.tools.muzzle.label>枪口</CE_Gun_SWGovernor.tools.muzzle.label>
+
+	<!-- Winchester 94 -->
+	<CE_Gun_WinchesterNintyFour.label>Winchester 94杠杆式步枪</CE_Gun_WinchesterNintyFour.label>
+	<CE_Gun_WinchesterNintyFour.description>一种古老的杠杆式连发步枪，曾是有史以来最著名、最普及的狩猎步枪之一。</CE_Gun_WinchesterNintyFour.description>
+	<CE_Gun_WinchesterNintyFour.tools.stock.label>枪托</CE_Gun_WinchesterNintyFour.tools.stock.label>
+	<CE_Gun_WinchesterNintyFour.tools.barrel.label>枪管</CE_Gun_WinchesterNintyFour.tools.barrel.label>
+	<CE_Gun_WinchesterNintyFour.tools.muzzle.label>枪口</CE_Gun_WinchesterNintyFour.tools.muzzle.label>
+
+	<!-- USAS-12 -->
 	<CE_Gun_USASTwelve.label>USAS-12突击霰弹枪</CE_Gun_USASTwelve.label>
+	<CE_Gun_USASTwelve.description>一种为近距离全自动射击设计的古老突击霰弹枪。</CE_Gun_USASTwelve.description>
+	<CE_Gun_USASTwelve.tools.stock.label>枪托</CE_Gun_USASTwelve.tools.stock.label>
+	<CE_Gun_USASTwelve.tools.barrel.label>枪管</CE_Gun_USASTwelve.tools.barrel.label>
+	<CE_Gun_USASTwelve.tools.muzzle.label>枪口</CE_Gun_USASTwelve.tools.muzzle.label>
 
-	<CE_Gun_USASTwelve.description>设计用于近距离全自动射击的老式突击霰弹枪。</CE_Gun_USASTwelve.description>
+	<!-- SIG MCX -->
+	<CE_Gun_SigMCX.label>SIG MCX卡宾枪</CE_Gun_SigMCX.label>
+	<CE_Gun_SigMCX.description>一种已经过时的卡宾枪，采用短行程导气活塞系统，以提高可靠性并减小后坐力。</CE_Gun_SigMCX.description>
+	<CE_Gun_SigMCX.tools.stock.label>枪托</CE_Gun_SigMCX.tools.stock.label>
+	<CE_Gun_SigMCX.tools.barrel.label>枪管</CE_Gun_SigMCX.tools.barrel.label>
+	<CE_Gun_SigMCX.tools.muzzle.label>枪口</CE_Gun_SigMCX.tools.muzzle.label>
 
-	<CE_Gun_KrissVector.label>Kriss Vector冲锋枪</CE_Gun_KrissVector.label>
+	<!-- AKMS-U -->
+	<CE_Gun_AKMSU.label>AKMS-U卡宾枪</CE_Gun_AKMSU.label>
+	<CE_Gun_AKMSU.description>一种古老的超短型卡宾枪，将中间威力弹的火力与冲锋枪的紧凑尺寸融为一体。</CE_Gun_AKMSU.description>
+	<CE_Gun_AKMSU.tools.stock.label>枪托</CE_Gun_AKMSU.tools.stock.label>
+	<CE_Gun_AKMSU.tools.barrel.label>枪管</CE_Gun_AKMSU.tools.barrel.label>
+	<CE_Gun_AKMSU.tools.muzzle.label>枪口</CE_Gun_AKMSU.tools.muzzle.label>
 
-	<CE_Gun_KrissVector.description>拥有一个独特的形状，用于近距离战斗的轻量级冲锋枪。</CE_Gun_KrissVector.description>
+	<!-- FN FAL -->
+	<CE_Gun_FNFAL.label>FN FAL战斗步枪</CE_Gun_FNFAL.label>
+	<CE_Gun_FNFAL.description>一种发射全威力步枪弹的古老军用战斗步枪，素有“自由世界的右臂”之称。</CE_Gun_FNFAL.description>
+	<CE_Gun_FNFAL.tools.stock.label>枪托</CE_Gun_FNFAL.tools.stock.label>
+	<CE_Gun_FNFAL.tools.barrel.label>枪管</CE_Gun_FNFAL.tools.barrel.label>
+	<CE_Gun_FNFAL.tools.muzzle.label>枪口</CE_Gun_FNFAL.tools.muzzle.label>
 
-	<CE_Gun_FNFAL.label>FAL自动步枪</CE_Gun_FNFAL.label>
+	<!-- Ruger Mini-14 -->
+	<CE_Gun_MiniFourteen.label>Ruger Mini-14半自动步枪</CE_Gun_MiniFourteen.label>
+	<CE_Gun_MiniFourteen.description>一种古老的轻型半自动步枪。凭借经久考验的简洁结构与良好精度，它在边缘世界广受欢迎。</CE_Gun_MiniFourteen.description>
+	<CE_Gun_MiniFourteen.tools.stock.label>枪托</CE_Gun_MiniFourteen.tools.stock.label>
+	<CE_Gun_MiniFourteen.tools.barrel.label>枪管</CE_Gun_MiniFourteen.tools.barrel.label>
+	<CE_Gun_MiniFourteen.tools.muzzle.label>枪口</CE_Gun_MiniFourteen.tools.muzzle.label>
 
-	<CE_Gun_FNFAL.description>老式军用突击步枪，发射大威力步枪子弹。</CE_Gun_FNFAL.description>
-
+	<!-- SKS -->
 	<CE_Gun_SKS.label>SKS半自动步枪</CE_Gun_SKS.label>
+	<CE_Gun_SKS.description>一种古老的半自动步枪，发射中间威力步枪弹，是远距离交战中的热门选择。</CE_Gun_SKS.description>
+	<CE_Gun_SKS.tools.stock.label>枪托</CE_Gun_SKS.tools.stock.label>
+	<CE_Gun_SKS.tools.barrel.label>枪管</CE_Gun_SKS.tools.barrel.label>
+	<CE_Gun_SKS.tools.muzzle.label>枪口</CE_Gun_SKS.tools.muzzle.label>
 
-	<CE_Gun_SKS.description>老式半自动步枪，发射中型威力步枪子弹，在远程交战中是一个不错选择。</CE_Gun_SKS.description>
+	<!-- AKM -->
+	<CE_Gun_AKM.label>AKM突击步枪</CE_Gun_AKM.label>
+	<CE_Gun_AKM.description>一种发射中间威力弹的古老军用武器。结构简单，易于组装，可靠性极高。</CE_Gun_AKM.description>
+	<CE_Gun_AKM.tools.stock.label>枪托</CE_Gun_AKM.tools.stock.label>
+	<CE_Gun_AKM.tools.barrel.label>枪管</CE_Gun_AKM.tools.barrel.label>
+	<CE_Gun_AKM.tools.muzzle.label>枪口</CE_Gun_AKM.tools.muzzle.label>
 
-	<CE_Gun_SVD.label>SVD狙击步枪</CE_Gun_SVD.label>
+	<!-- SVD -->
+	<CE_Gun_SVD.label>SVD精确射手步枪</CE_Gun_SVD.label>
+	<CE_Gun_SVD.description>一种结构较为简单的古老狙击步枪，以可靠性著称。</CE_Gun_SVD.description>
+	<CE_Gun_SVD.tools.stock.label>枪托</CE_Gun_SVD.tools.stock.label>
+	<CE_Gun_SVD.tools.barrel.label>枪管</CE_Gun_SVD.tools.barrel.label>
+	<CE_Gun_SVD.tools.muzzle.label>枪口</CE_Gun_SVD.tools.muzzle.label>
 
-	<CE_Gun_SVD.description>以可靠性著称的一把简单紧凑的狙击步枪。</CE_Gun_SVD.description>
+	<!-- Hecate II -->
+	<CE_Gun_HecateTwo.label>Hécate II反器材步枪</CE_Gun_HecateTwo.label>
+	<CE_Gun_HecateTwo.description>一种古老的栓动式反器材步枪，以大口径弹药配合高倍率瞄准镜，可在超远距离实施狙击；枪托可快速拆卸，便于运输。</CE_Gun_HecateTwo.description>
+	<CE_Gun_HecateTwo.tools.stock.label>枪托</CE_Gun_HecateTwo.tools.stock.label>
+	<CE_Gun_HecateTwo.tools.barrel.label>枪管</CE_Gun_HecateTwo.tools.barrel.label>
+	<CE_Gun_HecateTwo.tools.muzzle.label>枪口</CE_Gun_HecateTwo.tools.muzzle.label>
 
+	<!-- PTRS-41 -->
 	<CE_Gun_PTRS.label>PTRS-41反坦克步枪</CE_Gun_PTRS.label>
+	<CE_Gun_PTRS.description>一种古老的反坦克步枪，最初用于对付早期装甲车辆。它发射威力极强的弹药，但庞大的尺寸和重量使其难以操控。</CE_Gun_PTRS.description>
+	<CE_Gun_PTRS.tools.stock.label>枪托</CE_Gun_PTRS.tools.stock.label>
+	<CE_Gun_PTRS.tools.barrel.label>枪管</CE_Gun_PTRS.tools.barrel.label>
+	<CE_Gun_PTRS.tools.muzzle.label>枪口</CE_Gun_PTRS.tools.muzzle.label>
 
-	<CE_Gun_PTRS.description>老式反坦克步枪，最初被设计用于对付老式装甲目标，威力巨大，但颇具规模的体型和重量令其显得尤为笨重。</CE_Gun_PTRS.description>
+	<!-- M249 -->
+	<CE_Gun_MTwoFourNine.label>M249班用自动武器</CE_Gun_MTwoFourNine.label>
+	<CE_Gun_MTwoFourNine.description>一种采用弹链供弹的古老班用自动武器，兼具机枪的高射速与步枪的精度和便携性，可为步兵班提供持续火力。</CE_Gun_MTwoFourNine.description>
+	<CE_Gun_MTwoFourNine.tools.stock.label>枪托</CE_Gun_MTwoFourNine.tools.stock.label>
+	<CE_Gun_MTwoFourNine.tools.barrel.label>枪管</CE_Gun_MTwoFourNine.tools.barrel.label>
+	<CE_Gun_MTwoFourNine.tools.muzzle.label>枪口</CE_Gun_MTwoFourNine.tools.muzzle.label>
 
-	<CE_Gun_MSixty.label>M60通用机枪</CE_Gun_MSixty.label>
+	<!-- M60E6 -->
+	<CE_Gun_MSixty.label>M60E6通用机枪</CE_Gun_MSixty.label>
+	<CE_Gun_MSixty.description>一种采用弹链供弹的古老通用机枪，火力充沛，却沉重笨拙、难以携行，军中因而常昵称其为“猪”。</CE_Gun_MSixty.description>
+	<CE_Gun_MSixty.tools.stock.label>枪托</CE_Gun_MSixty.tools.stock.label>
+	<CE_Gun_MSixty.tools.barrel.label>枪管</CE_Gun_MSixty.tools.barrel.label>
+	<CE_Gun_MSixty.tools.muzzle.label>枪口</CE_Gun_MSixty.tools.muzzle.label>
 
-	<CE_Gun_MSixty.description>一种使用弹链供弹射击的通用机枪，火力强大，但又笨又重，难以携带，军中常戏称其为“小笨猪”。</CE_Gun_MSixty.description>
-
+	<!-- RPD -->
 	<CE_Gun_RPD.label>RPD轻机枪</CE_Gun_RPD.label>
+	<CE_Gun_RPD.description>一种古老的轻机枪，是现代班用自动武器的前身，在同类武器中相对轻便。</CE_Gun_RPD.description>
+	<CE_Gun_RPD.tools.stock.label>枪托</CE_Gun_RPD.tools.stock.label>
+	<CE_Gun_RPD.tools.barrel.label>枪管</CE_Gun_RPD.tools.barrel.label>
+	<CE_Gun_RPD.tools.muzzle.label>枪口</CE_Gun_RPD.tools.muzzle.label>
 
-	<CE_Gun_RPD.description>老式轻机枪，是现代班用自动武器的前身，相校于其同类武器重量较轻。</CE_Gun_RPD.description>
-
+	<!-- PKM -->
 	<CE_Gun_PKM.label>PKM通用机枪</CE_Gun_PKM.label>
+	<CE_Gun_PKM.description>一种古老的通用机枪，坚固可靠的设计使其深受边缘世界居民青睐。</CE_Gun_PKM.description>
+	<CE_Gun_PKM.tools.stock.label>枪托</CE_Gun_PKM.tools.stock.label>
+	<CE_Gun_PKM.tools.barrel.label>枪管</CE_Gun_PKM.tools.barrel.label>
+	<CE_Gun_PKM.tools.muzzle.label>枪口</CE_Gun_PKM.tools.muzzle.label>
 
-	<CE_Gun_PKM.description>老式通用机枪，坚固可靠的设计令其在边缘世界中颇为流行。</CE_Gun_PKM.description>
-
+	<!-- RPG-7 -->
 	<CE_Gun_RPGSeven.label>RPG-7火箭筒</CE_Gun_RPGSeven.label>
+	<CE_Gun_RPGSeven.description>一具短小的火箭助推榴弹发射器，单发射击，弹头命中即爆。它价格低廉且可重复装填，是一次性发射器的实惠替代品。</CE_Gun_RPGSeven.description>
+	<CE_Gun_RPGSeven.tools.barrel.label>枪管</CE_Gun_RPGSeven.tools.barrel.label>
 
-	<CE_Gun_RPGSeven.description>多功能火箭助推榴弹发射器，用于发射撞击引爆的火箭弹。结实耐用且价格低廉，可用于发射多种类型的榴弹。</CE_Gun_RPGSeven.description>
+	<!-- Milkor MGL -->
+	<CE_Gun_MilkorMGL.label>Milkor MGL转轮榴弹发射器</CE_Gun_MilkorMGL.label>
+	<CE_Gun_MilkorMGL.description>一种古老的单兵便携式榴弹发射器，六发转轮弹仓使其能够保持较高的火力密度。</CE_Gun_MilkorMGL.description>
+	<CE_Gun_MilkorMGL.tools.stock.label>枪托</CE_Gun_MilkorMGL.tools.stock.label>
+	<CE_Gun_MilkorMGL.tools.barrel.label>枪管</CE_Gun_MilkorMGL.tools.barrel.label>
+	<CE_Gun_MilkorMGL.tools.muzzle.label>枪口</CE_Gun_MilkorMGL.tools.muzzle.label>
 
-	<CE_Gun_MilkorMGL.label>Milkor MGL榴弹发射器</CE_Gun_MilkorMGL.label>
+	<!-- Charge pistol -->
+	<CE_Gun_ChargePistol.label>P-6电荷手枪</CE_Gun_ChargePistol.label>
+	<CE_Gun_ChargePistol.description>一种电荷手枪，常被闪耀世界的警察和雇佣兵用作随身武器。</CE_Gun_ChargePistol.description>
+	<CE_Gun_ChargePistol.tools.grip.label>握把</CE_Gun_ChargePistol.tools.grip.label>
+	<CE_Gun_ChargePistol.tools.muzzle.label>枪口</CE_Gun_ChargePistol.tools.muzzle.label>
 
-	<CE_Gun_MilkorMGL.description>老式单兵便携式榴弹发射器，装载着6发榴弹的旋转弹仓令其拥有较高的火力。</CE_Gun_MilkorMGL.description>
+	<!-- Charge shotgun -->
+	<CE_Gun_ChargeShotgun.label>S-12电荷霰弹枪</CE_Gun_ChargeShotgun.label>
+	<CE_Gun_ChargeShotgun.description>一种电荷霰弹枪，专为在近距离战斗中发挥最大杀伤力而设计。</CE_Gun_ChargeShotgun.description>
+	<CE_Gun_ChargeShotgun.tools.stock.label>枪托</CE_Gun_ChargeShotgun.tools.stock.label>
+	<CE_Gun_ChargeShotgun.tools.barrel.label>枪管</CE_Gun_ChargeShotgun.tools.barrel.label>
+	<CE_Gun_ChargeShotgun.tools.muzzle.label>枪口</CE_Gun_ChargeShotgun.tools.muzzle.label>
 
-	<CE_Gun_ChargeLMG.label>L-20电荷轻机枪</CE_Gun_ChargeLMG.label>
+	<!-- Charge SMG -->
+	<CE_Gun_ChargeSMG.label>S-6电荷冲锋枪</CE_Gun_ChargeSMG.label>
+	<CE_Gun_ChargeSMG.description>一种采用无托结构的电荷冲锋枪，在近距离战斗中极为有效。</CE_Gun_ChargeSMG.description>
+	<CE_Gun_ChargeSMG.tools.stock.label>枪托</CE_Gun_ChargeSMG.tools.stock.label>
+	<CE_Gun_ChargeSMG.tools.barrel.label>枪管</CE_Gun_ChargeSMG.tools.barrel.label>
+	<CE_Gun_ChargeSMG.tools.muzzle.label>枪口</CE_Gun_ChargeSMG.tools.muzzle.label>
 
-	<CE_Gun_ChargeLMG.description>设计用于压制敌方的电荷轻机枪。</CE_Gun_ChargeLMG.description>
+	<!-- Charge sniper rifle -->
+	<CE_Gun_ChargeSniperRifle.label>R-8电荷狙击步枪</CE_Gun_ChargeSniperRifle.label>
+	<CE_Gun_ChargeSniperRifle.description>一种配备先进光学瞄具、用于远距离射击的电荷狙击步枪。</CE_Gun_ChargeSniperRifle.description>
+	<CE_Gun_ChargeSniperRifle.tools.stock.label>枪托</CE_Gun_ChargeSniperRifle.tools.stock.label>
+	<CE_Gun_ChargeSniperRifle.tools.barrel.label>枪管</CE_Gun_ChargeSniperRifle.tools.barrel.label>
+	<CE_Gun_ChargeSniperRifle.tools.muzzle.label>枪口</CE_Gun_ChargeSniperRifle.tools.muzzle.label>
 
-	<CE_Gun_ChargeSniperRifle.label>R-11电荷精准步枪</CE_Gun_ChargeSniperRifle.label>
+	<!-- Charge LMG -->
+	<CE_Gun_ChargeLMG.label>L-8电荷轻机枪</CE_Gun_ChargeLMG.label>
+	<CE_Gun_ChargeLMG.description>一种专为压制射击设计的电荷轻机枪。</CE_Gun_ChargeLMG.description>
+	<CE_Gun_ChargeLMG.tools.stock.label>枪托</CE_Gun_ChargeLMG.tools.stock.label>
+	<CE_Gun_ChargeLMG.tools.barrel.label>枪管</CE_Gun_ChargeLMG.tools.barrel.label>
+	<CE_Gun_ChargeLMG.tools.muzzle.label>枪口</CE_Gun_ChargeLMG.tools.muzzle.label>
 
-	<CE_Gun_ChargeSniperRifle.description>配备先进高倍率光学瞄具的电荷狙击步枪。</CE_Gun_ChargeSniperRifle.description>
+	<!-- Charge anti-materiel rifle -->
+	<CE_Gun_ChargeAMR.label>A-12电荷反器材步枪</CE_Gun_ChargeAMR.label>
+	<CE_Gun_ChargeAMR.description>一种配备先进光学瞄具、用于远距离射击的电荷反器材步枪。</CE_Gun_ChargeAMR.description>
+	<CE_Gun_ChargeAMR.tools.stock.label>枪托</CE_Gun_ChargeAMR.tools.stock.label>
+	<CE_Gun_ChargeAMR.tools.barrel.label>枪管</CE_Gun_ChargeAMR.tools.barrel.label>
+	<CE_Gun_ChargeAMR.tools.muzzle.label>枪口</CE_Gun_ChargeAMR.tools.muzzle.label>
 
+	<!-- Flamethrower -->
 	<CE_Gun_Flamethrower.label>RM2火焰喷射器</CE_Gun_Flamethrower.label>
-
-	<CE_Gun_Flamethrower.description>非常规的火焰喷射器设计，使用可更换的增压燃料气罐，而非背包式燃料罐，从而减轻了枪械的整体负担，但随之而来的便是需要经常更换燃料罐。</CE_Gun_Flamethrower.description>
+	<CE_Gun_Flamethrower.description>一种采用非常规设计的火焰喷射器，以可更换的加压燃料罐取代背负式燃料箱。携行负担更小，但需要频繁装填。</CE_Gun_Flamethrower.description>
+	<CE_Gun_Flamethrower.tools.barrel.label>枪管</CE_Gun_Flamethrower.tools.barrel.label>
+	<CE_Gun_Flamethrower.tools.muzzle.label>枪口</CE_Gun_Flamethrower.tools.muzzle.label>
 
 </LanguageData>
